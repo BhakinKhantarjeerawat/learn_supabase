@@ -2,7 +2,7 @@
 
 # Install Flutter
 echo "Installing Flutter..."
-curl -o- https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.32.5-stable.tar.xz | tar -xJ
+curl -o- https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.32.5-stable.tar.xz | tar -xJ
 export PATH="$PATH:`pwd`/flutter/bin"
 
 # Check Flutter installation
