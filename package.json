@@ -1,0 +1,12 @@
+{
+  "name": "learn_supabase",
+  "version": "1.0.0",
+  "description": "Flutter web app with Supabase authentication",
+  "scripts": {
+    "build": "curl -sL https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.32.5-stable.tar.xz | tar -xJ && export PATH=\"$PATH:`pwd`/flutter/bin\" && flutter pub get && flutter build web",
+    "start": "cd build/web && python3 -m http.server 8000"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
