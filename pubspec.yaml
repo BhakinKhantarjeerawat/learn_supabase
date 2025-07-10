@@ -39,6 +39,12 @@ dependencies:
   # Riverpod dependencies
   flutter_riverpod: ^2.5.1
   riverpod_annotation: ^2.3.5
+  
+  # SharedPreferences
+  shared_preferences: ^2.5.3
+  
+  # Routing
+  go_router: ^16.0.0
 
 dev_dependencies:
   flutter_test:
